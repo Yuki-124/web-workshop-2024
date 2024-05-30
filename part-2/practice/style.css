@@ -1,0 +1,29 @@
+@charset "UTF-8";
+h1,p {
+    color: white;
+    background-color: red;
+    font-size: 48px;
+  }
+  .highlight{
+    background-color: aquamarine;
+    color: white;
+}
+
+#main-heading{
+    color: blue;
+    font-size: 2em;
+}
+
+h1 {
+    background-color: blue;
+  }
+  @media (max-width: 200px) {
+    h1 {
+      background-color: red;
+    }
+  }
+  @media (min-width: 600px) {
+    h1 {
+      background-color: green;
+    }
+  }
